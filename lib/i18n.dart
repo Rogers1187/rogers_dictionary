@@ -15,7 +15,7 @@ _CapMessage dialogues = _CapMessage('dialogues', 'diálogos');
 _CapMessage search = _CapMessage('search', 'buscar');
 _Message enterTextHint = _Message(
     'Enter text above to search for a translation ',
-    '¡Ingrese el texto arriba para buscar una traducción ');
+    '¡Introduzca texto en la parte superior para buscar una traducción ');
 _Message noFavoritesHint = _Message(
     'No results! Try favoriting an entry first ',
     '¡No hay resultados! Primero, intenta marcar una entrada como favorita ');
