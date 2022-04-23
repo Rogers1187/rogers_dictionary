@@ -39,13 +39,13 @@ Message enterTextHint = const Message(
     'Ingrese texto arriba para buscar una traducción ');
 Message noBookmarksHint = const Message(
     'No results! Try bookmarking an entry first ',
-    '¡No hay entradas! Intenta aplicar marcador a un artículo primero ');
+    '¡No hay entradas! Intente* aplicar marcador a un artículo primero ');
 Message typosHint = const Message('No results! Check for typos ',
     '¡No hay resultados! Compruebe si hay errores ortográficos ');
 Message swipeForSpanish = const Message('or swipe left for spanish mode.',
-    'o desliza a la izquierda para traducir términos en español.');
+    'o deslice* a la izquierda para traducir términos en español.');
 Message swipeForEnglish = const Message('or swipe right for english mode.',
-    'o desliza a la derecha para traducir términos en inglés.');
+    'o deslice* a la derecha para traducir términos en inglés.');
 
 // Localizations for EntryView.
 Message irregularInflections =
@@ -71,7 +71,7 @@ _CapMessage email = _CapMessage('email', 'correo electronico');
 _CapMessage emailError =
     _CapMessage('invalid email', 'correo electronico invalido');
 _CapMessage submitError = _CapMessage(
-    'specify a valid email', 'necesitas un correo electrónico válido');
+    'specify a valid email', 'necesita* un correo electrónico válido');
 
 _CapMessage translationError =
     _CapMessage('translation error', 'error de traducción');
@@ -151,7 +151,7 @@ Message audioPlaybackTimeoutMsg = const Message(
 );
 Message invalidEntry = const Message('Invalid entry', 'Entrada inválida');
 Message reportBug = const Message('report bug', 'reporte un error');
-Message retry = const Message('retry', 'rever');
+Message retry = const Message('retry', 'reintentar*');
 
 class Message {
   const Message(this.en, this.es);
